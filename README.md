@@ -39,7 +39,7 @@ AI CRM Agent встраивается в боковую панель Outlook. П
 graph TD
     subgraph "1. Outlook Client"
         User((Пользователь)) -->|Открывает письмо| Outlook[Microsoft Outlook]
-        Outlook -->|Клик "Process Email"| Addin[Next.js + Fluent UI]
+        Outlook -->|Клик Process Email| Addin[Next.js + Fluent UI]
         Addin -->|Извлекает данные| OfficeJS(Office.js)
         OfficeJS -->|Отправляет в чат| ChatUI[Vercel AI SDK]
     end
