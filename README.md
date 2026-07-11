@@ -2,6 +2,8 @@
 
 Интеллектуальная надстройка (Add-in) для Microsoft Outlook, которая позволяет менеджерам обрабатывать входящие письма и управлять сделками в 1С CRM прямо из интерфейса почтового клиента с помощью ИИ-ассистента.
 
+**📖 [История разработки](DEV_HISTORY.md)**
+
 ### 🎥 Демонстрация работы
 
 https://github.com/IlyaKarakcheev/CRMAgentForOutlook/raw/master/CRMAgentForOutlook.mp4
